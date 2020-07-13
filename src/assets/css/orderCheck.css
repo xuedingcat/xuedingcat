@@ -1,0 +1,283 @@
+/* order-check */
+
+#order-check {
+    padding: 3rem 0;
+    font-size: 0.9rem;
+}
+
+#order-addr {
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.7rem solid #e9e9e9;
+}
+
+.order-address {
+    padding: 0 1rem;
+    display: flex;
+    height: 4rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.order-addr {
+    display: flex;
+    font-weight: bold;
+}
+
+.address-info {
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+}
+
+.order-addr p:first-child {
+    margin-right: 0.5rem;
+}
+
+#order-addr img {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1rem;
+}
+
+#payment, #order-info, #order-list {
+    border-bottom: 0.7rem solid #e9e9e9;
+}
+
+.payment, .order-info, .order-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    margin: 0 1rem;
+    border-bottom: 0.05rem solid #e9e9e9;
+}
+
+#payment .payment:last-child, #order-list .order-list:last-child {
+    border-bottom: none;
+}
+
+.pay {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pay>img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.payment>img {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.order-msg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #bfbfbf;
+}
+
+#discount {
+    border-bottom: none;
+}
+
+.discount {
+    color: #ff6700;
+    margin-left: 0.3rem;
+}
+
+.order-msg img {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.5rem;
+}
+
+.order-main, .order-account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-main img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.order-num, .order-mult {
+    font-size: 0.8rem;
+    margin-right: 0.3rem;
+}
+
+/* drop */
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+#dispatch, #invoice, #coupon {
+    background: #e9e9e9;
+    padding: 0 1rem;
+    /* display: none; */
+}
+
+#dispatch-mode, #invoice-type {
+    border-bottom: 0.05rem solid #d9d9d9;
+    padding-bottom: 0.9rem;
+}
+
+.drop-title {
+    color: #696969;
+    line-height: 2.7rem;
+}
+
+#dispatch-mode>p:last-child {
+    color: #696969;
+    line-height: 0.9rem;
+}
+
+#dispatch-time {
+    padding-bottom: 1rem;
+}
+
+#dispatch-content, #invoice-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#dispatch-content a, #invoice-content a {
+    padding: 0.3rem 0.6rem;
+    margin-right: 1rem;
+    line-height: 0.9rem;
+    background: white;
+    border: 0.05rem solid #d9d9d9;
+}
+
+#dispatch-content .redBorder, #invoice-content .redBorder {
+    border: 0.05rem solid red;
+}
+
+#invoice-type a:last-child {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    line-height: 0.9rem;
+    background: white;
+    border: 0.05rem solid red;
+}
+
+#invoice-title {
+    padding-bottom: 0.9rem;
+}
+
+#invoice-content {
+    margin-bottom: 0.9rem;
+}
+
+#invoice-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 1rem;
+    background: white;
+    border: 0.05rem solid #d9d9d9;
+}
+
+#invoice-info img {
+    width: 1rem;
+    height: 1rem;
+}
+
+#invoice-default {
+    padding: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#invoice-default img {
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-right: 0.2rem;
+}
+
+#coupon {
+    padding-bottom: 1rem;
+}
+
+#coupon-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#coupon-number input {
+    padding: 0 1rem;
+    margin-right: 0.5rem;
+    background: white;
+    border: 0.05rem solid #bfbfbf;
+    outline: none;
+    width: 50vw;
+    height: 2rem;
+}
+
+#coupon-number button {
+    width: 3.6rem;
+    height: 2.1rem;
+    color: #696969;
+    border: 0.05rem solid #bfbfbf;
+    background: white;
+}
+
+/* accounts */
+
+#total {
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    background: white;
+}
+
+#total-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 3rem;
+    box-sizing: border-box;
+    border-top: 0.03rem solid #e9e9e9;
+    box-shadow: 0 -0.05rem 0.05rem #c9c9c9 inset;
+    font-size: 0.9rem;
+}
+
+#total-content {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#total-content>p:nth-child(2) {
+    margin: 0 0.3rem;
+}
+
+#total-content>p:last-child {
+    color: #ff6700;
+}
+
+#total-payment {
+    width: 50vw;
+    height: 3rem;
+    background: #ff6700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e9e9e9;
+}

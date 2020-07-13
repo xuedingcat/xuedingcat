@@ -1,0 +1,186 @@
+{
+    "code": 0,
+    "data": [
+        {
+            "animeName": "你的名字。",
+            "animeImage0": "0.webp",
+            "animeImage1": "0.jpg",
+            "starList": [
+                "star0.png",
+                "star0.png",
+                "star0.png",
+                "star0.png",
+                "star0.png"
+            ],
+            "animeInfo": "16年8月上映",
+            "animeLink": "12044",
+            "button": "观看"
+        },
+        {
+            "animeName": "天气之子",
+            "animeImage0": "1.webp",
+            "animeImage1": "1.jpg",
+            "starList": [
+                "star.png",
+                "star.png",
+                "star.png",
+                "star.png",
+                "star.png"
+            ],
+            "animeInfo": "19年7月上映",
+            "animeLink": "33343",
+            "button": "观看"
+        },
+        {
+            "animeName": "辉夜大小姐想让我告白~",
+            "animeImage0": "2.webp",
+            "animeImage1": "2.jpg",
+            "starList": [
+                "star0.png",
+                "star0.png",
+                "star0.png",
+                "star0.png",
+                "star0.png"
+            ],
+            "animeInfo": "已完结,全12话",
+            "animeLink": "26274",
+            "button": "追番"
+        },
+        {
+            "animeName": "辉夜大小姐想让我告白？",
+            "animeImage0": "3.webp",
+            "animeImage1": "3.jpg",
+            "starList": [
+                "star0.png",
+                "star0.png",
+                "star0.png",
+                "star0.png",
+                "star0.png"
+            ],
+            "animeInfo": "已完结,全12话",
+            "animeLink": "32982",
+            "button": "追番"
+        },
+        {
+            "animeName": "鬼灭之刃",
+            "animeImage0": "4.webp",
+            "animeImage1": "4.jpg",
+            "starList": [
+                "star.png",
+                "star.png",
+                "star.png",
+                "star.png",
+                "star.png"
+            ],
+            "animeInfo": "已完结,全24话",
+            "animeLink": "26801",
+            "button": "追番"
+        },
+        {
+            "animeName": "约定的梦幻岛",
+            "animeImage0": "5.webp",
+            "animeImage1": "5.jpg",
+            "starList": [
+                "star.png",
+                "star.png",
+                "star.png",
+                "star.png",
+                "star.png"
+            ],
+            "animeInfo": "已完结,全12话",
+            "animeLink": "26281",
+            "button": "追番"
+        },
+        {
+            "animeName": "紫罗兰永恒花园",
+            "animeImage0": "6.webp",
+            "animeImage1": "6.jpg",
+            "starList": [
+                "star.png",
+                "star.png",
+                "star.png",
+                "star.png",
+                "star1.png"
+            ],
+            "animeInfo": "已完结,全14话",
+            "animeLink": "21542",
+            "button": "追番"
+        },
+        {
+            "animeName": "青春猪头少年系列",
+            "animeImage0": "7.webp",
+            "animeImage1": "7.jpg",
+            "starList": [
+                "star.png",
+                "star.png",
+                "star.png",
+                "star.png",
+                "star.png"
+            ],
+            "animeInfo": "已完结,全13话",
+            "animeLink": "25733",
+            "button": "追番"
+        },
+        {
+            "animeName": "刺客伍六七",
+            "animeImage0": "8.webp",
+            "animeImage1": "8.jpg",
+            "starList": [
+                "star.png",
+                "star.png",
+                "star.png",
+                "star.png",
+                "star.png"
+            ],
+            "animeInfo": "已完结,全14话",
+            "animeLink": "6360",
+            "button": "追番"
+        },
+        {
+            "animeName": "刺客伍六七Ⅱ",
+            "animeImage0": "9.webp",
+            "animeImage1": "9.jpg",
+            "starList": [
+                "star.png",
+                "star.png",
+                "star.png",
+                "star.png",
+                "star.png"
+            ],
+            "animeInfo": "已完结,全10话",
+            "animeLink": "28510",
+            "button": "追番"
+        },
+        {
+            "animeName": "少女终末旅行",
+            "animeImage0": "10.webp",
+            "animeImage1": "10.jpg",
+            "starList": [
+                "star.png",
+                "star.png",
+                "star.png",
+                "star.png",
+                "star.png"
+            ],
+            "animeInfo": "已完结,全12话",
+            "animeLink": "6463",
+            "button": "追番"
+        },
+        {
+            "animeName": "进击的巨人最终季",
+            "animeImage0": "11.webp",
+            "animeImage1": "11.jpg",
+            "starList": [
+                "star0.png",
+                "star0.png",
+                "star0.png",
+                "star0.png",
+                "star0.png"
+            ],
+            "animeInfo": "20年10月开播",
+            "animeLink": "26963",
+            "button": "追番"
+        }
+    ],
+    "message": ""
+}

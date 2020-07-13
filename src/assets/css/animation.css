@@ -1,0 +1,377 @@
+/* background */
+
+#animation-bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -9;
+}
+
+#sky {
+    position: relative;
+    height: 50%;
+    background: #007fd5;
+    overflow: hidden;
+    box-shadow: 0 -1.2rem 2.4rem #87ceeb inset;
+    animation: sky-bg 50s ease-out infinite;
+}
+
+@media screen and (max-width:767px) {
+    #sky {
+        animation: sky-bg 25s ease-out infinite;
+    }
+}
+
+@keyframes sky-bg {
+    0% {
+        background: #007fd5;
+        color: #007fd5
+    }
+    50% {
+        background: #87ceeb;
+        color: #a3d9ff
+    }
+    100% {
+        background: #007fd5;
+        color: #007fd5
+    }
+}
+
+#sky div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 300%;
+}
+
+@media screen and (max-width:767px) {
+    #sky div {
+        width: 1500%;
+    }
+}
+
+#cloud0 {
+    background: url(../img/animation/cloud0.png) bottom left;
+    animation: cloud0 50s linear infinite;
+}
+
+#cloud1 {
+    background: url(../img/animation/cloud1.png) bottom left;
+    animation: cloud1 75s linear infinite;
+}
+
+#cloud2 {
+    background: url(../img/animation/cloud2.png) bottom left;
+    animation: cloud2 100s linear infinite;
+}
+
+@keyframes cloud0 {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -200%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    @keyframes cloud0 {
+        0% {
+            left: 0;
+        }
+        100% {
+            left: -1400%;
+        }
+    }
+}
+
+@keyframes cloud1 {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -200%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    @keyframes cloud1 {
+        0% {
+            left: 0;
+        }
+        100% {
+            left: -1400%;
+        }
+    }
+}
+
+@keyframes cloud2 {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -200%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    @keyframes cloud2 {
+        0% {
+            left: 0;
+        }
+        100% {
+            left: -1400%;
+        }
+    }
+}
+
+#sea {
+    height: 50%;
+    background: url(../img/animation/sea.jpg) top/cover;
+}
+
+@media screen and (max-width:768px) {
+    #sea {
+        background: url(../img/animation/sea0.jpg) top/cover;
+    }
+}
+
+/* animation-head */
+
+#animation-head {
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+#anime-head {
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem 0.5rem;
+    background: rgba(255, 192, 203, 0.5);
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.xdLogo {
+    position: relative;
+}
+
+.xdLogo img {
+    display: block;
+    width: 5rem;
+    height: 5rem;
+}
+
+.xdLogo0 {
+    position: relative;
+    z-index: 1;
+    animation: xdLogo 3s ease-in-out 2s 3 alternate both;
+}
+
+@keyframes xdLogo {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.xdLogo1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#anime-title0 {
+    font-family: sans-serif;
+    font-style: italic;
+    color: #00a1d6;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin-right: 1rem;
+}
+
+#anime-title1 {
+    font-family: "STKaiti", cursive;
+    color: #696969;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+@media screen and (min-width:768px) {
+    #anime-head {
+        width: 80%;
+    }
+    .xdLogo {
+        margin-right: 3rem;
+    }
+    #anime-title0 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    #anime-title1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    #anime-head {
+        width: 50%;
+    }
+    .xdLogo {
+        margin-right: 5rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .xdLogo {
+        margin-right: 2rem;
+    }
+    #anime-title0 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:639px) {
+    #anime-head {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:499px) {
+    #anime-head {
+        justify-content: space-around;
+    }
+    .xdLogo {
+        margin-right: 0;
+    }
+    #anime-title0 {
+        font-family: "Courier New", monospace;
+        margin-right: 0;
+    }
+}
+
+/* content */
+
+#animation {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+}
+
+#anime {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+#anime li {
+    list-style-type: none;
+}
+
+@media screen and (min-width:1600px) {
+    #anime li {
+        width: 20%;
+        margin: 0 1% 20% 1%;
+    }
+}
+
+@media screen and (max-width:1599px) {
+    #anime li {
+        width: 25%;
+        margin: 0 1% 25% 1%;
+    }
+}
+
+@media screen and (max-width:979px) {
+    #anime li {
+        width: 40%;
+        margin: 0 1% 40% 1%;
+    }
+}
+
+@media screen and (max-width:639px) {
+    #anime li {
+        width: 70%;
+        margin: 0 15% 15% 15%;
+    }
+}
+
+.anime-img img {
+    width: 100%;
+    opacity: 0.7;
+    border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.anime-main {
+    background: rgba(201, 201, 201, 0.7);
+    border-radius: 0 0 0.8rem 0.8rem;
+    padding: 0 0.5rem;
+    text-align: center;
+}
+
+.anime-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.anime-main>p:first-child {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0 0 0.7rem 0;
+}
+
+.anime-msg p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    font-family: fangsong;
+}
+
+.star {
+    height: 1.2rem;
+}
+
+.star img {
+    height: 1.3rem;
+    width: 1.3rem;
+    float: left;
+}
+
+.anime-btn {
+    color: #595959;
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.25rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(#c9c9c9, #999999);
+    border: 0.2rem solid #595959;
+    box-shadow: 0.07rem 0.1rem #696969;
+    border-radius: 0.5rem;
+    align-self: center;
+}
+
+@media screen and (max-width:359px) {
+    .anime-main>p:first-child {
+        font-size: 1.15rem;
+    }
+    .anime-msg p {
+        font-size: 1.1rem;
+    }
+    .anime-btn {
+        font-size: 1.15rem;
+        line-height: 1.15rem;
+    }
+}
